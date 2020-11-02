@@ -1,0 +1,23 @@
+{
+  "name": "NodeJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server.js": "nodemon server.js",
+    "startPath": "nodemon path.js",
+    "startFS": "nodemon fs.js",
+    "startOS": "nodemon os.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  }
+}
